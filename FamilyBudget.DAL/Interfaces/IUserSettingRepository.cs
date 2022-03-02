@@ -5,5 +5,6 @@
         UserSetting GetByUser(int userId);
         void Create(UserSetting userSetting);
         void Update(UserSetting userSetting);
+        void Save();
     }
 }

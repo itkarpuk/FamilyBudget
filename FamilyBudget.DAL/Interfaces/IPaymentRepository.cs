@@ -2,6 +2,6 @@
 {
     public interface IPaymentRepository
     {
-        ICollection<Payment> GetAll();
+        IEnumerable<Payment> GetAll();
     }
 }

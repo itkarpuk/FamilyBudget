@@ -2,6 +2,6 @@
 {
     public interface ICurrencyRepository
     {
-        ICollection<Currency> GetAll();
+        IEnumerable<Currency> GetAll();
     }
 }

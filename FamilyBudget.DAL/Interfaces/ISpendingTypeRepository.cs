@@ -2,6 +2,6 @@
 {
     public interface ISpendingTypeRepository
     {
-        ICollection<SpendingType> GetAll();
+        IEnumerable<SpendingType> GetAll();
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IReceiptTypeRepository
     {
-        ICollection<ReceiptType> GetAll();
+        IEnumerable<ReceiptType> GetAll();
     }
 }
